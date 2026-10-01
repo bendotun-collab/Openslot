@@ -36,4 +36,4 @@ The schema includes RLS and an atomic `book_open_slot` function to reduce double
 - Add the two public Supabase environment variables in Netlify.
 
 ## Status
-v1.2 establishes the extensible marketplace foundation. Authentication flows, manual-post forms, booking UI, provider dashboards, payment/subscription billing, and live calendar OAuth/sync are the next implementation layer.
+v1.2 now includes email/password authentication, provider onboarding, manual OpenSlot publishing, live inventory retrieval, customer booking through an atomic database function, and a basic provider dashboard. Payment/subscription billing and live calendar OAuth/sync remain intentionally disabled until their external credentials and workflows are configured.
